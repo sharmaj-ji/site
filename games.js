@@ -271,7 +271,7 @@ addEventListener('keydown', function (e) {
 function playerAnimation() {
 
   if (player.dead) {
-    context.fillStyle = 'black';
+    context.fillStyle = 'green';
     context.fillRect(0, 0, canvas.width, canvas.height);
     context.fillStyle = 'white';
     context.font = '48px sans-serif';
